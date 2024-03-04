@@ -81,5 +81,10 @@
                                 color: var(--verde); text-transform: uppercase;
                                 }
 
+                                .cotador{
+                                    font-size: 20px;
+                                    text-align: center;
+                                }
+
                        
                     
