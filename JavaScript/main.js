@@ -13,6 +13,7 @@ for(let i=0;i <botoes.length;i++){ botoes[i].onclick = function() {
     textos[i].classList.add("ativo");
     }
 }
+
 const contadores = document.querySelectorAll(".contador");
     const tempoObjetivo1 = new Date("2020-10-05T00:00:00");
     const tempoObjetivo2 = new Date("2023-12-05T00:00:00");  
@@ -37,7 +38,7 @@ function comecaCronometro(){
 atualizaCronometro();
 setInterval(atualizaCronometro, 1000);
 }
-comecaCronometro();
+//comecaCronometro();
     
     function calculaTempo(tempoObjetivo) { 
         let tempoAtual = new Date();

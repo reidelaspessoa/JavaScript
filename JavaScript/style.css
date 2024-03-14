@@ -64,26 +64,32 @@
                         }
                     
                         .abas-textos{
-                            background-color: var(--texto-fundo); padding: 40px;
+                            background-color: var(--texto-fundo); 
+                            padding: 40px;
                             border-radius: 0 0 40px 40px;
                             }
 
-                            .aba-conteudo.ativo{ display:block;
+                            .aba-conteudo.ativo{ 
+                                display:block;
                             }
 
-                            .aba-conteudo{ display: none;
+                            .aba-conteudo{ 
+                                display: none;
                             }
 
-                            .aba-conteudo-titulo-principal{ font-size: 28px;
+                            .aba-conteudo-titulo-principal{ 
+                                font-size: 28px;
                                 text-align: center;
                                 }
-                                .aba-conteudo-titulo-secundario{ text-align: center;
-                                color: var(--verde); text-transform: uppercase;
+                                .aba-conteudo-titulo-secundario{ 
+                                text-align: center;
+                                color: var(--verde); 
+                                text-transform: uppercase;
                                 }
 
                                 .cotador{
-                                    font-size: 20px;
-                                    text-align: center;
+                                font-size: 20px;
+                                text-align: center;
                                 }
 
                        
